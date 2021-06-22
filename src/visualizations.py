@@ -1,0 +1,1 @@
+winningFighterGym = p_soup2.find('details_two_columns').find('ul', {'class': 'clearfix'}).findAll('li')[7].find('a').text
